@@ -1,7 +1,7 @@
 # Weather Powered Email Project
 
 ## Steps to Run:
-1. Set up a Python3.7 environment with numpy, pandas, requests, and django installed. You can see the exact versions below.
+1. Set up a Python 3.7 environment with numpy, pandas, requests, and django installed. You can see the exact versions below.
 2. You can access the main signup page at localhost:8000/, and sign up whatever emails you want.
 3. You can access the admin page at localhost:8000/admin using the username: mgalbato and password: testpassword
 4. You can run the management command by navigating to the django_project directory and running ```python python manage.py email_command ```.
