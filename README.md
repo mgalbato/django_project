@@ -6,6 +6,8 @@
 3. You can access the admin page at localhost:8000/admin using the username: mgalbato and password: testpassword
 4. You can run the management command by navigating to the django_project directory and running ```python python manage.py email_command ```.
 
+Let me know if you have any questions! Email me at mag386@cornell.edu.
+
 ## Citations:
 I used [this source](https://simplemaps.com/data/us-zips) for the population data and used [this tool](https://arendjr.github.io/selectivity/) for the dropdown selector functionality.
 
