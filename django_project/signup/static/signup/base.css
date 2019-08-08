@@ -1,0 +1,26 @@
+body {
+    background-color: #EFEFEF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 500px;
+    width: 600px;
+    padding: 0px 10px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: #CAEBF2;
+    box-shadow: 0px 0px 25px #888888;
+    border-radius: 2px;
+}
+
+.header h1 {
+    color: black;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}

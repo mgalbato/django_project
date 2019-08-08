@@ -1,0 +1,10 @@
+{% extends "signup/base.html" %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'signup/confirm.css' %}">
+    <title>Email Sign Up - Confirmation</title>
+{% endblock extra_head %}
+{% block content %}
+<p id='confirmation'>Confirmed! You are subscribed.</p>
+{% endblock content %}

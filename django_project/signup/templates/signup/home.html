@@ -1,0 +1,42 @@
+{% extends "signup/base.html" %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'signup/home.css' %}">
+    <link rel="stylesheet" href="{% static 'signup/selectivity-jquery.css' %}">
+    <script type="text/javascript" src="{% static 'signup/jquery-3.4.1.js' %}"></script>
+    <script type="text/javascript" src="{% static 'signup/selectivity-jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'signup/select.js' %}"></script>
+    <script>
+        var context_var= "{{ cities|escapejs }}";
+    </script>
+    <title>Email Sign Up</title>
+{% endblock extra_head %}
+
+{% block content %}
+<form class="signup-form" method="POST">
+    {% csrf_token %}
+    <section class='email-address'>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="text" id="email" name="email" maxlength="320"
+        {% if email_taken is True %}
+        placeholder= "email taken"
+        {% endif %}
+        {% if email_invalid is True %}
+        placeholder= "email invalid"
+        {% endif %}
+        required>
+    </section>
+
+    <section class='location'>
+        <label for="city">Location</label>
+        <br>
+        <div id="city" class="selectivity-input" tabindex="0"></div>
+    </section>
+
+    <section class="submission">
+        <input type="submit" value="Subscribe" id="submit-btn">
+    </section>
+</form>
+{% endblock content %}
