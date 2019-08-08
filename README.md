@@ -2,7 +2,7 @@
 
 |     Name      |    Version    |     Name      |    Channel    |
 | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| asn1crypto  | Content Cell  |
 | Content Cell  | Content Cell  |
 
 ## packages in environment at /Users/michael/anaconda3/envs/webdev:
