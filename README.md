@@ -4,8 +4,6 @@
 ## Packages in Environment:
 |     Name      |    Version    |
 | ------------- | ------------- | 
-
-
 |asn1crypto            |    0.24.0       |  
 |blas                   |   1.0          |              
 |ca-certificates        |  2019.5.15     |                
