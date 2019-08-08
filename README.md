@@ -1,8 +1,13 @@
 # Weather Powered Email Project
 
+|     Name      |    Version    |     Name      |    Channel    |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ## packages in environment at /Users/michael/anaconda3/envs/webdev:
 ##
-## Name                    Version                   Build  Channel
+##                 Version                   Build  Channel
 asn1crypto                0.24.0                   py37_0    anaconda
 blas                      1.0                         mkl    anaconda
 ca-certificates           2019.5.15                     0    anaconda
