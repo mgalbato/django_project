@@ -1,5 +1,16 @@
 # Weather Powered Email Project
 
+## Steps to Run:
+1. Set up a Python3.7 environment with numpy, pandas, requests, and django installed. You can see the exact versions below.
+2. You can access the main signup page at localhost:8000/, and sign up whatever emails you want.
+3. You can access the admin page at localhost:8000/admin using the username: mgalbato and password: testpassword
+4. You can run the management command by navigating to the django_project directory and running ```python python manage.py email_command ```.
+
+## Citations:
+I used [this source](https://simplemaps.com/data/us-zips) for the population data and used [this tool](https://arendjr.github.io/selectivity/) for the dropdown selector functionality.
+
+## Notes:
+My data source didn't include Anchorage nor Boston in the list of 100 most populous cities. So instead, I assigned weatherapp+anc@klaviyo.com to Albuquerque and weatherapp+bos@klaviyo.com to New York. Obviously, I am not using Albuquerque as a proxy for Anchorage weather, but I just needed to select some city for demonstration purposes.
 
 ## Packages in Environment:
 |     Name      |    Version    |
